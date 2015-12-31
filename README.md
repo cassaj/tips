@@ -1,0 +1,53 @@
+# Pre-work - tips
+
+tips is a tip calculator application for iOS.
+
+Submitted by: Cassie James
+
+Time spent: 48 hours spent in total
+
+## User Stories
+
+The following **required** functionality is complete:
+* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+
+The following **optional** features are implemented:
+* [X] Settings page to change the default tip percentage.
+* [ ] UI animations
+* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [X] Using locale-specific currency and currency thousands separators.
+* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+
+The following **additional** features are implemented:
+
+- added a slider to the home page for custom tip percentage 
+- added a launch screen with personalized logo 
+- added app icons
+
+## Video Walkthrough 
+
+Here's a walkthrough of implemented user stories:
+
+<img src=http://i.imgur.com/0eZlf13.gif title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Notes
+
+I had absolutely no experience with Swift or coding in general, as this was my first attempt at coding. It took me several hours to get the basic calculator down and to figure out what each word did or didn't do. I spent a lot of time on other websites looking at tutorials to better understand how the app is supposed to work. The most difficult part was getting the slider to change the tip amount ($) that corresponded to the slider's position. After countelss hours and having to restart completely from scratch, I was able to bypass the issue. All in all, this was a great learning experience.
+
+## License
+
+    Copyright 2015 Cassie James
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
